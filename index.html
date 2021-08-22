@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>GPA Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.scss">
+</head>
+
+<body>
+
+<header>
+  <h1>GPA Calculator</h1>
+</header>
+
+<div class="leftandright">
+<div class="leftside">
+  <form>
+    <div class="firstrow">
+    <h2 class="labels">Class Name</h2>
+    <input type="text" class="input">
+    </div>
+  <div class="secondrow">
+    <h2 class="labels">Grade (A, B, C, D, or F)</h2>
+    <input type="text" class="input2">
+    <h2 class="labels">Credit Hours</h2>
+    <input type="text" class="input3">
+  </div>
+  <div class="thirdrow">
+    <button class="button" type="submit">
+      <i class="fas fa-check-circle"></i>
+    </button>
+  </div>
+  </form>
+</div>
+<div class="rightside" id="rightside" >
+  <h3>GPA:</h3>
+<p style="margin-top: 40px;"><span id="total"></span></p>
+</div>
+</div>
+  <div class="container">
+    <ul class="list" ></ul>
+    </div>
+
+  
+
+  <script src="app.js"></script>
+
+</body>
+
+
+</html>
